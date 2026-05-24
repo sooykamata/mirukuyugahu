@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', serif; }
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #1a2a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);
+}
+.hero-inner {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  padding: 24px;
+}
+.label { font-size: 10px; letter-spacing: 5px; color: rgba(255,255,255,0.7); margin-bottom: 32px; }
+.title { font-size: 36px; font-weight: 400; letter-spacing: 0.3em; color: #fff; margin-bottom: 8px; }
+.catch { font-size: 16px; font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 6px; letter-spacing: 1px; }
+.sub { font-size: 11px; color: rgba(255,255,255,0.6); letter-spacing: 3px; }
+.divider { width: 40px; height: 1px; background: rgba(255,255,255,0.4); margin: 20px auto; }
+.scroll { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-size: 9px; color: rgba(255,255,255,0.5); letter-spacing: 3px; }
